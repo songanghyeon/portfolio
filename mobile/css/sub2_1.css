@@ -1,0 +1,54 @@
+/* 비주얼 영역 */
+.visual{position: relative;}
+.visual img{width: 100%; height: 250px; position: relative; }
+.visual span{font-size: 1.5rem; color: #fff;
+    position: absolute; left: 50%; bottom: 25%; 
+transform: translate(-50%,-25%);}
+
+
+/* 서브메뉴 영역 */
+.sub_nav{width: 100%; border-bottom: 1px solid #ccc; margin: 0 auto;}
+.sub_nav ul{overflow: hidden; margin: 0 auto; display: flex;}
+.sub_nav li{width: 50%; text-align: center;}
+.sub_nav li a{font-size: 1.1rem; font-weight: 400; padding: 12px 0;}
+.sub_nav li .current{background: #4DA9E1; color: #fff;
+font-weight: 500;}
+
+
+/* 타이틀 영역 */
+#content{width: 100%; margin: 0 auto;}
+#content .title_area{height: 300px; position: relative; overflow: hidden;}
+#content .title_area h2{font-size: 2.2rem; text-align: center; margin-top: 70px;
+    position: relative;}
+#content .title_area h2::after{content:''; display: block;
+width: 3px; height: 60px; background: #034EA2; position: absolute; top: 100px; left: 50%;}
+#content .title_area p{font-size: 1.1rem; text-align: center;}
+
+
+/* 본문 컨텐츠 영역 */
+
+
+.content_area .info h3{font-size: 2rem; font-weight: 600; text-align: center;
+margin-bottom: 10px;}
+.content_area .info p{font-size: 1.1rem; font-weight: 500; text-align: center;
+margin-bottom: 30px;}
+.content_area .info strong{color: #4DA9E1;}
+.content_area .info .img{width: 90%; margin: 0 auto; margin-bottom: 40px;}
+.content_area .info .img img{width: 100%; height: 100%; border-radius: 15px;}
+.content_area .info ul dt{font-size: 1.3rem; font-weight: 500;
+margin-bottom: 10px; text-align: center;}
+.content_area .info ul dd{font-size: 1rem; text-align: justify; line-height: 1.5rem;
+width: 90%; margin: 0 auto 40px; overflow: hidden;}
+
+.content_area .info_bottom{margin-bottom: 100px;}
+.content_area .info_bottom h3{font-size: 2rem; font-weight: 600; text-align: center;
+margin:80px 0 10px;}
+.content_area .info_bottom p{font-size: 1.1rem; font-weight: 500; text-align: center;
+margin-bottom: 30px;}
+.content_area .info_bottom strong{color: #4DA9E1;}
+.content_area .info_bottom .img{width: 90%; margin: 0 auto; margin-bottom: 50px;}
+.content_area .info_bottom .img img{width: 100%; height: 100%; border-radius: 15px;}
+.content_area .info_bottom ul dt{font-size: 1.3rem; font-weight: 500;
+margin-bottom: 10px; text-align: center;}
+.content_area .info_bottom ul dd{font-size: 1rem; text-align: justify; line-height: 1.5rem;
+width: 90%; margin: 0 auto 50px; overflow: hidden;}
