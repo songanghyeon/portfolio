@@ -1,0 +1,1009 @@
+/* About us 영역 */
+#content .section01{position: relative;}
+#content .section01 h3{font-size: 6rem; font-weight: 900; margin: 0 0 50px 20px;
+padding-top: 50px;}
+#content .section01 .gradient-text{            
+    background:linear-gradient(to bottom, #FFE96F, #F67C21);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;}
+#content .section01 p{color: #fff; font-size: 1.3rem; line-height: 1.8rem;
+text-align: justify; word-break: break-all;}
+#content .section01 .more{width: 116px; margin: 0 auto;}
+#content .section01 .more a{
+    text-align: center;
+    font-size: 1.2rem;
+    position: relative;
+    display: inline-block;
+    padding: 15px;
+    margin:150px 0 0;
+    color: #ffa724;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+}
+#content .section01 .more a:hover{
+    background: #ffa724;
+    color: #fff;
+    box-shadow: 0 0 5px #ffa724,
+                0 0 25px #ffa724,
+                0 0 50px #ffa724,
+                0 0 200px #ffa724;}
+
+#content .section01 .more a span{position: absolute; display: block;}
+#content .section01 .more a span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#ffa724);
+    animation: animate1 1s linear infinite;}
+@keyframes animate1{
+    0%{left: -100%;}
+    50%,100%{left: 100%;}}
+#content .section01 .more a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#ffa724);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;}
+@keyframes animate2{
+    0%{top: -100%;}
+    50%,100%{top: 100%;}}
+#content .section01 .more a span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#ffa724);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;}
+@keyframes animate3{
+    0%{right: -100%;}
+    50%,100%{right: 100%;}}
+
+#content .section01 .more a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#ffa724);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;}
+@keyframes animate4{
+    0%{bottom: -100%;}
+    50%,100%{ bottom: 100%;}}
+
+#content .section01 .container1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all .5s;}
+
+
+    
+#content .section01 .container1 .image{overflow: hidden; border-radius: 20px; position: relative;}
+#content .section01 .container1 .image:hover img{transform: scale(1.1);}
+#content .section01 .container1 .image::before {
+    position: absolute; top: 0; left: -75%;
+    z-index: 2;  display: block; content: ''; width: 45%; height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.2) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.2) 100%);
+    -webkit-transform: skewX(-25deg); transform: skewX(-25deg);}
+#content .section01 .container1 .image:hover::before ,#content .section01 .container1 .image img{
+    -webkit-animation: shine .75s;
+    animation: shine .75s;  }
+@-webkit-keyframes shine {
+    100% {
+    left: 125%;
+    }
+}
+@keyframes shine {
+    100% {
+    left: 125%;
+    }
+}
+
+
+#content .section01 .container1{margin: 0 20px;
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    grid-gap: 20px;
+    grid-template-areas: 
+    'a a b c'
+    'a a b c'
+    'd e f f'
+    'd e f f';    }
+.container1 .image1{grid-area: a;}
+.container1 .image2{grid-area: b;}
+.container1 .image3{grid-area: c;}
+.container1 .image4{grid-area: d;}
+.container1 .image5{grid-area: e;}
+.container1 .image6{grid-area: f;}
+
+
+/* Place 영역 */
+#content .section02{position: relative;}
+#content .section02 .gradient-text{font-size: 6rem; font-weight: 900; margin-left: 20px;
+    padding-top: 250px;            
+    background:linear-gradient(to bottom, #FFE96F, #F67C21);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;}
+#content .section02 p{color: #fff; font-size: 1.5rem; margin: 0 0 100px 20px;}
+#content .section02 .container2 .box{position: relative; overflow: hidden;}
+#content .section02 .container2 .box:hover img{transform: scale(1.15); filter: blur(7px);}
+#content .section02 .container2 .box:hover dl{top: 0;}
+#content .section02 .container2 .box:hover dt{font-size: 2.3rem; margin-top: 100px;}
+#content .section02 .container2 dl{color: #fff; background: rgba(0,0,0,.5);
+position: absolute; left: 0; top: 450px; height: 514px; word-break: break-all;
+transition: all .5s ease-out;}
+#content .section02 .container2 dl dt{font-size: 2rem; font-weight: 600; text-align: center;
+margin: 10px 0 30px; transition: all .5s ease-out;}
+#content .section02 .container2 dl dd{font-size: 1.2rem; text-align: justify; padding: 0 30px;}
+#content .section02 .container2 img{
+    width: 100%;
+    height: 514px;
+    object-fit: cover;
+    object-position: center;
+    transition: all .5s;}
+#content .section02 .container2{margin: 0 20px;
+    display: grid;
+    align-items: start;
+    grid-template-columns:  repeat(4, 1fr);
+    grid-row: 50px;
+    grid-gap: 20px;
+    grid-template-areas: 
+    'a b c d'
+    'e f g h'; }
+.container2 .image1{grid-area: a;}
+.container2 .image2{grid-area: b;}
+.container2 .image3{grid-area: c;}
+.container2 .image4{grid-area: d;}
+.container2 .image5{grid-area: e;}
+.container2 .image6{grid-area: f;}
+.container2 .image7{grid-area: g;}
+.container2 .image8{grid-area: h;}
+#content .section02 .more{width: 116px; margin: 0 auto;}
+#content .section02 .more a{text-align: center; font-size: 1.2rem; padding: 15px ;
+margin:150px 0 0; font-weight: 600;}
+#content .section02 .more a{
+    position: relative;
+    display: inline-block;
+    padding: 15px;
+    color: #ffa724;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+}
+#content .section02 .more a:hover{
+    background: #ffa724;
+    color: #fff;
+    box-shadow: 0 0 5px #ffa724,
+                0 0 25px #ffa724,
+                0 0 50px #ffa724,
+                0 0 200px #ffa724;}
+
+#content .section02 .more a span{position: absolute; display: block;}
+#content .section02 .more a span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#ffa724);
+    animation: animate1 1s linear infinite;}
+@keyframes animate1{
+    0%{left: -100%;}
+    50%,100%{left: 100%;}}
+#content .section02 .more a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#ffa724);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;}
+@keyframes animate2{
+    0%{top: -100%;}
+    50%,100%{top: 100%;}}
+#content .section02 .more a span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#ffa724);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;}
+@keyframes animate3{
+    0%{right: -100%;}
+    50%,100%{right: 100%;}}
+
+#content .section02 .more a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#ffa724);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;}
+@keyframes animate4{
+    0%{bottom: -100%;}
+    50%,100%{ bottom: 100%;}}
+
+
+
+
+/* Festival 영역 */
+#content .section03 .back{background: url(../images/index/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;height: 1800px;
+    margin: 200px 0 80px;}
+#content .section03 .gradient-text{font-size: 4.5rem; font-weight: 900; text-align: center;
+    padding-top: 150px;            
+    background:linear-gradient(to bottom, #FFE96F, #F67C21);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;}
+#content .section03 p{color: #fff; font-size: 1.5rem; line-height: 2.5rem; margin: 0 0 100px 20px;
+text-align: justify; text-align: center;}
+#content .section03 .img{width: 90%; margin: 15px auto; margin-bottom: 40px;
+transition: all .3s ease-out;}
+#content .section03 .img img{width: 100%; height: 650px;
+object-fit: cover; border-radius: 20px;}
+#content .section03 .img:hover{box-shadow: 0 0 30px 1px rgba(93, 217, 255, 0.7);
+border-radius: 20px;}
+#content .section03 ul dl{color: #fff; width: 80%; margin: 0 auto; word-break: break-all; }
+#content .section03 ul dt{font-size: 2rem; font-weight: 500;
+margin: 50px 0 30px; text-align: center;}
+#content .section03 ul dd{font-size: 1.3rem; text-align: justify; margin: 0 auto ;
+margin-bottom: 100px;}
+.swiper-slide .img::before, .container::after{
+position: absolute;
+content : "";
+top: 15%;
+left: -5%;
+height:50%;
+width:50%;
+border-radius:50%;
+opacity:0.5;
+filter: blur(60px);}
+
+.swiper-slide .img::before{
+background-color:#e100ff;
+z-index: -2;
+animation : backglow1 15s ease infinite;
+}
+
+@keyframes backglow1{
+0%
+{transform: translate(10%, 10%) scale(0.9); opacity:0.3;}
+25%
+{transform: translate(-10%, 10%) scale(0.8); opacity:0.3;}
+50%
+{transform: translate(-10%, -10%) scale(1.1); opacity:0.6;}
+75%
+{transform: translate(10%, -10%) scale(1); opacity:0.2;}
+100%
+{transform: translate(10%, 10%) scale(0.9); opacity:0.3;}}
+
+#content .section03 .more{width: 116px; margin: 0 auto;}
+#content .section03 .more a{
+    text-align: center;
+    font-size: 1.2rem;
+    position: relative;
+    display: inline-block;
+    padding: 15px;
+    margin:150px 0 0;
+    color: #ffa724;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+}
+#content .section03 .more a:hover{
+    background: #ffa724;
+    color: #fff;
+    box-shadow: 0 0 5px #ffa724,
+                0 0 25px #ffa724,
+                0 0 50px #ffa724,
+                0 0 200px #ffa724;}
+
+#content .section03 .more a span{position: absolute; display: block;}
+#content .section03 .more a span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#ffa724);
+    animation: animate1 1s linear infinite;}
+@keyframes animate1{
+    0%{left: -100%;}
+    50%,100%{left: 100%;}}
+#content .section03 .more a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#ffa724);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;}
+@keyframes animate2{
+    0%{top: -100%;}
+    50%,100%{top: 100%;}}
+#content .section03 .more a span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#ffa724);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;}
+@keyframes animate3{
+    0%{right: -100%;}
+    50%,100%{right: 100%;}}
+
+#content .section03 .more a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#ffa724);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;}
+@keyframes animate4{
+    0%{bottom: -100%;}
+    50%,100%{ bottom: 100%;}}
+
+
+/* Nature 영역 */
+#content .section04{position: relative; word-break: break-all;}
+#content .section04 .gradient-text{font-size: 4.5rem; font-weight: 900; margin-left: 20px;
+    padding-top: 100px;            
+    background:linear-gradient(to bottom, #FFE96F, #F67C21);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;}
+#content .section04 .text{color: #fff; font-size: 1.5rem; line-height: 2.5rem; margin: 0 0 100px 20px;
+text-align: justify;}
+#content .section04 .image1 p, #content .section04 .image5 span{color: #fff; font-size: 1.3rem;
+display: block; padding: 20px; text-align: justify;}
+#content .section04 .container3 .image5 span:nth-child(2){
+    font-size: 6vw; font-weight: 700; display: block;
+    padding: 0 20px; text-align: center; letter-spacing: 20px;}
+#content .section04 .container3 .image5{background: url(../images/index/back02.jpg);
+background-size: cover; background-repeat: no-repeat;}
+#content .section04 .container3 .image{width: 100%; height: 100%;}
+#content .section04 .container3 img{
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;}
+#content .section04 .container3 .image {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    }
+#content .section04 .container3 .image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    }
+#content .section04 .container3 .image:before, #content .section04 .container3 .image:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    border: 3px solid transparent;
+    transition: all 0.5s;
+    }
+#content .section04 .container3 .image:before {
+    top: 0;
+    left: 0;
+    border-top: 5px solid #ffffff;
+    border-left: 5px solid #ffffff;
+    }
+#content .section04 .container3 .image:after {
+    bottom: 0;
+    right: 0;
+    border-bottom: 5px solid #ffffff;
+    border-right: 5px solid #ffffff;
+    }
+#content .section04 .container3 .image:hover:before, #content .section04 .container3 .image:hover:after {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    } 
+
+#content .section04 .container3{margin: 0 20px;
+    display: grid;
+    align-items: start;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    grid-template-areas: 
+    'a a d d'
+    'b c d d'
+    'f e e g'; }
+.container3 .image1{grid-area: a;}
+.container3 .image2{grid-area: b;}
+.container3 .image3{grid-area: c;}
+.container3 .image4{grid-area: d;}
+.container3 .image5{grid-area: e;}
+.container3 .image6{grid-area: f;}
+.container3 .image7{grid-area: g;}
+
+#content .section04 .more{width: 116px; margin: 0 auto;}
+#content .section04 .more a{
+    text-align: center;
+    font-size: 1.2rem;
+    position: relative;
+    display: inline-block;
+    padding: 15px;
+    margin:150px 0 0;
+    color: #ffa724;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+}
+#content .section04 .more a:hover{
+    background: #ffa724;
+    color: #fff;
+    box-shadow: 0 0 5px #ffa724,
+                0 0 25px #ffa724,
+                0 0 50px #ffa724,
+                0 0 200px #ffa724;}
+
+#content .section04 .more a span{position: absolute; display: block;}
+#content .section04 .more a span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#ffa724);
+    animation: animate1 1s linear infinite;}
+@keyframes animate1{
+    0%{left: -100%;}
+    50%,100%{left: 100%;}}
+#content .section04 .more a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#ffa724);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;}
+@keyframes animate2{
+    0%{top: -100%;}
+    50%,100%{top: 100%;}}
+#content .section04 .more a span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#ffa724);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;}
+@keyframes animate3{
+    0%{right: -100%;}
+    50%,100%{right: 100%;}}
+
+#content .section04 .more a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#ffa724);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;}
+@keyframes animate4{
+    0%{bottom: -100%;}
+    50%,100%{ bottom: 100%;}}
+
+
+/* Gallery 영역 */
+#content .section05 .gradient-text{font-size: 4.5rem; font-weight: 900; margin-bottom: 20px;
+    text-align: center;
+    padding-top: 300px;            
+    background:linear-gradient(to bottom, #FFE96F, #F67C21);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;}
+#content .section05 .text{color: #fff; font-size: 1.5rem; line-height: 2.5rem; margin-bottom: 100px;
+    text-align: center;}
+#content .section05 .container4 .img{width: 100%; height: 100%; position: relative; overflow: hidden;
+transition: all 0.5s ease-out;}
+.dim .img:not(:hover) img {filter: brightness(0.5);}
+#content .section05 .container4 .img:hover img{transform: scale(1.1);
+    position: relative;
+    filter: brightness(1.2);} 
+#content .section05 .container4 .img:hover{border-radius: 50px;}
+#content .section05 .container4 .img .icon {z-index: 20;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    }
+#content .section05 .container4 .img:hover .icon {opacity: 1;}
+#content .section05 .container4 .img .icon p {display: flex;gap: 20px;}
+#content .section05 .container4 .img .icon a {
+    color: white;
+    font-size: 2rem;
+    transition: color 0.3s ease-in-out;}
+#content .section05 .container4 .img .icon a:nth-of-type(1):hover {color: rgb(0, 68, 255);}
+#content .section05 .container4 .img .icon a:nth-of-type(2):hover {color: rgb(255, 0, 0);}
+#content .section05 .container4 .img .icon a:nth-of-type(3):hover {color: rgb(0, 204, 255);}
+#content .section05 .container4 .img .icon a:nth-of-type(4):hover {color: rgb(255, 217, 0);}
+
+
+
+#content .section05 .container4 img{
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+    object-position: center;}
+#content .section05 .container4{margin: 0 20px;
+    display: grid;
+    align-items: start;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    grid-template-areas: 
+    'a a b c'
+    'a a d e'
+    'f g h h'; }
+.container4 .image1{grid-area: a;}
+.container4 .image2{grid-area: b;}
+.container4 .image3{grid-area: c;}
+.container4 .image4{grid-area: d;}
+.container4 .image5{grid-area: e;}
+.container4 .image6{grid-area: f;}
+.container4 .image7{grid-area: g;}
+.container4 .image8{grid-area: h;}
+
+#content .section05 .more{width: 100px; margin: 0 auto;}
+#content .section05 .more a{
+    text-align: center;
+    font-size: 1.2rem;
+    position: relative;
+    display: inline-block;
+    padding: 15px;
+    margin:150px 0 0;
+    color: #ffa724;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+}
+#content .section05 .more a:hover{
+    background: #ffa724;
+    color: #fff;
+    box-shadow: 0 0 5px #ffa724,
+                0 0 25px #ffa724,
+                0 0 50px #ffa724,
+                0 0 200px #ffa724;}
+
+#content .section05 .more a span{position: absolute; display: block;}
+#content .section05 .more a span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#ffa724);
+    animation: animate1 1s linear infinite;}
+@keyframes animate1{
+    0%{left: -100%;}
+    50%,100%{left: 100%;}}
+#content .section05 .more a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#ffa724);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;}
+@keyframes animate2{
+    0%{top: -100%;}
+    50%,100%{top: 100%;}}
+#content .section05 .more a span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#ffa724);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;}
+@keyframes animate3{
+    0%{right: -100%;}
+    50%,100%{right: 100%;}}
+
+#content .section05 .more a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#ffa724);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;}
+@keyframes animate4{
+    0%{bottom: -100%;}
+    50%,100%{ bottom: 100%;}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 와이드 pc  */
+
+#content{ width:100%; margin:0; height:100%; background:rgba(0,0,0,.8);
+padding-bottom: 250px;}
+
+
+/* 일반 pc*/
+
+/* About us 영역 */
+@media screen and (max-width:1280px) {
+
+}
+
+/* 테블릿 ========================================================================= */
+@media screen and (max-width:1024px) {
+    /* About us 영역 */
+    #content .section01 p{font-size: 1.1rem;}
+    #content .section01 .container1{margin: 0 20px;
+        display: grid;
+        grid-template-columns:  repeat(3, 1fr);
+        grid-gap: 20px;
+        grid-template-areas: 
+        'a a c'
+        'a a c'
+        'b d e'
+        'b d e';    }
+    .container1 .image1{grid-area: a;}
+    .container1 .image2{grid-area: b;}
+    .container1 .image3{grid-area: c;}
+    .container1 .image4{grid-area: d;}
+    .container1 .image5{grid-area: e;}
+    .container1 .image6{display: none;}
+
+    /* Place 영역 */
+    #content .section02 .container2 dl dt{font-size: 1.7rem; font-weight: 600; text-align: center;
+        margin: 10px 0 30px; transition: all .5s ease-out;}
+        #content .section02 .container2 dl dd{font-size: 1rem; text-align: justify; padding: 0 30px;}
+        #content .section02 .container2 .box:hover dt{font-size: 2rem; margin-top: 100px;}
+    #content .section02 .container2{margin: 0 20px;
+        display: grid;
+        align-items: start;
+        grid-template-columns:  repeat(3, 1fr);
+        grid-row: 50px;
+        grid-gap: 20px;
+        grid-template-areas: 
+        'a b c'
+        'e f g'; }
+    .container2 .image1{grid-area: a;}
+    .container2 .image2{grid-area: b;}
+    .container2 .image3{grid-area: c;}
+    .container2 .image4{display: none;}
+    .container2 .image5{grid-area: e;}
+    .container2 .image6{grid-area: f;}
+    .container2 .image7{grid-area: g;}
+    .container2 .image8{display: none;}
+
+    /* Festival 영역 */
+    #content .section03 .img img{width: 100%; height: 450px;
+    object-fit: cover; border-radius: 20px;}
+    #content .section03 ul dl{color: #fff; width: 80%; margin: 0 auto; word-break: break-all; }
+    #content .section03 ul dt{font-size: 1.7rem; font-weight: 500;
+    margin: 50px 0 30px; text-align: center;}
+    #content .section03 ul dd{font-size: 1.1rem; text-align: justify; margin: 0 auto ;
+    margin-bottom: 100px;}
+
+    /* Nature 영역 */
+    #content .section04 .image1 span, #content .section04 .image5 span{font-size: 1rem;}
+    #content .section04 .container3 .image5 span:nth-child(2){
+        font-size: 4vw; font-weight: 700;}
+    #content .section04 .image1 p span{display: none;}
+    #content .section03 .back{height: 1300px;}
+    #content .section04 .container3{margin: 0 20px;
+        display: grid;
+        align-items: start;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 20px;
+        grid-template-areas: 
+        'a d c'
+        'a d c'
+        'f g b'; }
+    .container3 .image1{grid-area: a;}
+    .container3 .image2{grid-area: b;}
+    .container3 .image3{grid-area: c;}
+    .container3 .image4{grid-area: d;}
+    .container3 .image5{display: none;}
+    .container3 .image6{grid-area: f;}
+    .container3 .image7{grid-area: g;}
+
+    /* Gallery 영역 */
+    #content .section05 .container4{margin: 0 20px;
+        display: grid;
+        align-items: start;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        grid-template-areas: 
+        'b c d'
+        'a a a'
+        'e f g'; }
+        .container4 .image1{grid-area: a;}
+        .container4 .image2{grid-area: b;}
+        .container4 .image3{grid-area: c;}
+        .container4 .image4{grid-area: d;}
+        .container4 .image5{grid-area: e;}
+        .container4 .image6{grid-area: f;}
+        .container4 .image7{grid-area: g;}
+        .container4 .image8{display: none;}
+
+
+}
+
+/* 소형 테블릿 ==========================================================================*/
+@media screen and (max-width:768px) {
+	/* About us 영역 */
+    
+    #content .section01 h3{font-size: 3rem; font-weight: 800; margin: 0 0 50px 20px;
+    padding-top: 50px;}
+    #content .section01 p{font-size: .88rem;}
+    #content .section01 .container1{margin: 0 20px;
+        display: grid;
+        grid-template-columns:  repeat(2, 1fr);
+        grid-gap: 10px;
+        grid-template-areas: 
+        'a a'
+        'c b';    }
+    .container1 .image1{grid-area: a;}
+    .container1 .image2{grid-area: b;}
+    .container1 .image3{grid-area: c;}
+    .container1 .image4{display: none;}
+    .container1 .image5{display: none;}
+    .container1 .image6{display: none;}
+
+    /* Place 영역 */
+    #content .section02 .gradient-text{font-size: 3rem; font-weight: 900; margin-left: 20px;
+        padding-top: 150px;}
+    #content .section02 p{color: #fff; font-size: 1rem; margin: 0 0 50px 20px;}
+    #content .section02 .container2 .box{position: relative; overflow: hidden;}
+    #content .section02 .container2 .box:hover img{transform: scale(1); filter: blur(0);}
+    #content .section02 .container2 .box:hover dl{top: 0;}
+    #content .section02 .container2 dl{color: #fff; background: rgba(0,0,0,.5);
+        position: absolute; left: 0; top: 0; height: 514px; word-break: break-all;
+        transition: none}
+    #content .section02 .container2 .box:hover dt{font-size: 1.1rem; margin-top: 100px;}
+    #content .section02 .container2 dl dt{font-size: 1.1rem; font-weight: 600; text-align: center;
+        margin-top: 100px; transition: none;}
+        #content .section02 .container2 dl dd{font-size: 0.88rem; text-align: justify; padding: 0 30px;}
+    #content .section02 .container2{margin: 0 20px;
+        display: grid;
+        align-items: start;
+        grid-template-columns:  repeat(2, 1fr);
+        grid-gap: 10px;
+        grid-template-areas: 
+        'a b'
+        'e f'; }
+    .container2 .image1{grid-area: a;}
+    .container2 .image2{grid-area: b;}
+    .container2 .image3{display: none;}
+    .container2 .image4{display: none;}
+    .container2 .image5{grid-area: e;}
+    .container2 .image6{grid-area: f;}
+    .container2 .image7{display: none;}
+    .container2 .image8{display: none;}
+
+
+    /* Festival 영역 */
+    #content .section03 .gradient-text{font-size: 3rem; font-weight: 700;}
+    #content .section03 p{font-size: 1rem;;}
+    #content .section03 .back{height: 1300px;}
+    #content .section03 .img img{width: 100%; height: 300px;
+    object-fit: cover; border-radius: 20px;}
+    #content .section03 ul dl{color: #fff; width: 80%; margin: 0 auto; word-break: break-all; }
+    #content .section03 ul dt{font-size: 1.1rem; font-weight: 600;
+    margin: 50px 0 30px; text-align: center;}
+    #content .section03 ul dd{font-size: .88rem; text-align: justify; margin: 0 auto ;;}
+
+    /* Nature 영역 */
+    #content .section04 .gradient-text{font-size: 3rem; font-weight: 700;}
+    #content .section04 .text{font-size: 1rem;}
+    #content .section04 .image1 p, #content .section04 .image5 span{font-size: 1rem; line-height: 1.5rem;}
+    #content .section04 .image1 p span{display: none;}
+    #content .section04 .container3 .image5 span:nth-child(2){
+        font-size: 4vw; font-weight: 700; display: block; 
+        padding: 0 5px; text-align: center; letter-spacing: 20px;}
+    #content .section04 .container3{margin: 0 20px;
+        display: grid;
+        align-items: start;
+        grid-template-columns: repeat(2,1fr);
+        /* grid-template-rows: 400px 400px 400px; */
+        grid-gap: 10px;
+        grid-template-areas: 
+        'a d '
+        'f g '; }
+    .container3 .image1{grid-area: a;}
+    .container3 .image2{display: none;}
+    .container3 .image3{display: none;}
+    .container3 .image4{grid-area: d;}
+    .container3 .image5{display: none;}
+    .container3 .image6{grid-area: f;}
+    .container3 .image7{grid-area: g;}
+
+
+    /* Gallery 영역 */
+    #content .section05 .gradient-text{font-size: 3rem; font-weight: 900; padding-top: 150px;}
+    #content .section05 .text{color: #fff; font-size: 1rem;}
+    #content .section05 .container4{margin: 0 20px;
+        display: grid;
+        align-items: start;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        grid-template-areas: 
+        'a d'
+        'c f'; }
+        .container4 .image1{grid-area: a;}
+        .container4 .image2{display: none;}
+        .container4 .image3{grid-area: c;}
+        .container4 .image4{grid-area: d;}
+        .container4 .image5{display: none;}
+        .container4 .image6{grid-area: f;}
+        .container4 .image7{display: none;}
+        .container4 .image8{display: none;}
+
+}
+
+/* 모바일===================================================================================== */
+@media screen and (max-width:640px){
+
+    /* About us 영역 */
+    #content .section01 h3{font-size: 2.5rem; font-weight: 800; margin: 0 0 50px 20px;
+    padding-top: 50px;}
+    #content .section01 p{font-size: .88rem;}
+    #content .section01 .image1 p span{display: none;}
+    #content .section01 .container1 img{
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+        object-position: center bottom;}
+    #content .section01 .container1{margin: 0 20px;
+        display: grid;
+        grid-template-columns:  repeat(1, 1fr);
+        grid-gap: 10px;
+        grid-template-areas: 
+        'a'
+        'c';    }
+    .container1 .image1{grid-area: a;}
+    .container1 .image2{display: none;}
+    .container1 .image3{grid-area: c;}
+    .container1 .image4{display: none;}
+    .container1 .image5{display: none;}
+    .container1 .image6{display: none;}
+
+    /* Place 영역 */
+    #content .section02 .gradient-text{font-size: 2.5rem; font-weight:800; margin-left: 20px;
+        padding-top: 150px;}
+    #content .section02 p{color: #fff; font-size: 1rem; margin: 0 0 50px 20px;}
+    #content .section02 .container2 .box{position: relative; overflow: hidden;}
+    #content .section02 .container2 .box:hover img{transform: scale(1); filter: blur(0);}
+    #content .section02 .container2 .box:hover dl{top: 0;}
+    #content .section02 .container2 .box:hover dt{font-size: 1.5rem; margin-top: 20px;}
+    #content .section02 .container2 dl{background: none;
+        color: #fff; position: unset; height: 80px;
+        transition: none}
+    #content .section02 .container2 dl dt{font-size: 1.5rem; font-weight: 600;transition: unset;
+    margin: 20px 0 80px;}
+    #content .section02 .container2 dl dd{display: none;}
+    #content .section02 .container2{margin: 0 20px;
+        display: grid;
+        align-items: start;
+        grid-template-columns:  repeat(1, 1fr);
+        grid-gap: 10px;
+        grid-template-areas: 
+        'a'
+        'e'; }
+    .container2 .image1{grid-area: a;}
+    .container2 .image2{display: none;}
+    .container2 .image3{display: none;}
+    .container2 .image4{display: none;}
+    .container2 .image5{grid-area: e;}
+    .container2 .image6{display: none;}
+    .container2 .image7{display: none;}
+    .container2 .image8{display: none;}
+
+
+    /* Festival 영역 */
+    #content .section03 .gradient-text{font-size: 2.5rem; font-weight: 700;}
+    #content .section03 p{font-size: .88rem;;}
+    #content .section03 .back{height: 1300px;}
+    #content .section03 .img img{width: 100%; height: 300px;
+    object-fit: cover; border-radius: 20px;}
+    #content .section03 ul dl{color: #fff; width: 80%; margin: 0 auto; word-break: break-all; }
+    #content .section03 ul dt{font-size: 1.1rem; font-weight: 600;
+    margin: 50px 0 30px; text-align: center;}
+    #content .section03 ul dd{font-size: .88rem; text-align: justify; margin: 0 auto ;;}
+
+    /* Nature 영역 */
+    #content .section04 .gradient-text{font-size: 2.5rem; font-weight: 700;}
+    #content .section04 .text{font-size: .88rem; margin-bottom: 50px; line-height: 1rem;}
+    #content .section04 .image1 span, #content .section04 .image5 span{font-size: .88rem;}
+    #content .section04 .container3 .image5 span:nth-child(2){
+        font-size: 4vw; font-weight: 700; display: block; 
+        padding: 0 5px; text-align: center; letter-spacing: 20px;}
+    #content .section04 .container3{margin: 0 20px;
+        display: grid;
+        align-items: start;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 10px;
+        grid-template-areas: 
+        'a a '
+        'f f '; }
+    .container3 .image1{grid-area: a;}
+    .container3 .image2{display: none;}
+    .container3 .image3{display: none;}
+    .container3 .image4{display: none;}
+    .container3 .image5{display: none;}
+    .container3 .image6{grid-area: f;}
+    .container3 .image7{display: none;}
+
+
+    /* Gallery 영역 */
+    #content .section05 .gradient-text{font-size: 2.5rem; font-weight: 900; padding-top: 150px;}
+    #content .section05 .text{color: #fff; font-size: .88rem;}
+    #content .section05 .container4{margin: 0 20px;
+        display: grid;
+        align-items: start;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        grid-template-areas: 
+        'a'
+        'c'; }
+        .container4 .image1{grid-area: a;}
+        .container4 .image2{display: none;}
+        .container4 .image3{grid-area: c;}
+        .container4 .image4{display: none;}
+        .container4 .image5{display: none;}
+        .container4 .image6{display: none;}
+        .container4 .image7{display: none;}
+        .container4 .image8{display: none;}
+}
+
+
+
