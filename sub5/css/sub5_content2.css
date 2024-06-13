@@ -1,0 +1,29 @@
+/* 기업정보의 실제 본문 내용 css */
+
+
+
+/* 컨텐츠 영역 */
+#content .title_area .line_map i{opacity: .4;}
+.content_area .section01 p{color: #333; margin: 0 auto 50px; text-align: center; font-size: 1.88rem; font-weight: 500;}
+
+
+.content_area .section01{width: 100%;}
+.content_area .section01 p::after{content:'WELFARE'; display: block; opacity: .04;
+    position: absolute; left: 50%; top: 1200px; font-size: 25rem; transform: translate(-50%); }
+.content_area .section01 ul{overflow: hidden; width: 1200px;
+margin: 0 auto ; display: flex;}
+.content_area .section01 .content02 ul{margin-bottom: 200px;}
+.content_area .section01 ul li div img{border-radius: 50%; margin-top: 120px;
+box-shadow: 2px 2px 15px 2px rgba(0,0,0,.4); }
+.content_area .section01 ul li{margin: 0 auto; justify-content: center; position: relative;
+transition: all .5s ease-out;}
+.content_area .section01 ul dl{width: 210px; text-align: center; color: #333;
+margin-top: 40px;}
+.content_area .section01 ul dt{font-size: 1.75rem; font-weight: 600; margin: 0 0 30px; }
+.content_area .section01 ul dd{font-size: 1.25rem; font-weight: 400; line-height: 3rem;
+opacity: 0;transition: all .5s ease-out;}
+
+.content_area .section01 li:hover dd:nth-of-type(1){opacity: 1; transition-delay: .3s;}
+.content_area .section01 li:hover dd:nth-of-type(2){opacity: 1; transition-delay: .5s;}
+.content_area .section01 li:hover dd:nth-of-type(3){opacity: 1; transition-delay: .7s;}
+.content_area .section01 li:hover dd:nth-of-type(4){opacity: 1; transition-delay: .9s;}

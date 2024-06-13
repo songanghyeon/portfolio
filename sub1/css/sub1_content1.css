@@ -1,0 +1,55 @@
+/* 기업정보의 실제 본문 내용 css */
+
+
+
+/* 컨텐츠 영역 */
+#content .title_area .line_map i{opacity: .4;}
+.content_area .info p{text-align: center; width: 760px;
+    margin: 50px auto 150px; font-size: 1.38rem; font-weight: 500;}
+ 
+.content_area .info img{transition: all .5s ease-out; overflow: hidden;}
+.content_area .info li:hover img{transform: scale(1.1); filter: blur(4px);}
+.content_area .info ul{ text-align: center; color: #fff; }
+.content_area .info .info01{position: relative; overflow: hidden;  width: 1200px; height: 370px;
+margin-bottom: 100px;}
+.content_area .info .info01 dl{opacity: 0; transition: all .5s ease-out; height: 370px; }
+.content_area .info .info01 dt{font-size: 2.5rem; font-weight: 600;
+position: absolute; left: 50%; top: 30%; transform: translate(-50%,-30%); width: 650px;}
+.content_area .info .info01 dd{font-size: 1.25rem; width: 600px;
+    position: absolute; left: 50%; top: 70%; transform: translate(-50%,-70%);}
+.content_area .info .info01:hover dl{opacity: 1; }
+.content_area .info .info02{position: relative; overflow: hidden;  width: 1200px; height: 370px;}
+.content_area .info .info02 dl{opacity: 0; transition: all .5s ease-out; }
+.content_area .info .info02 dt{font-size: 2.5rem; font-weight: 600;
+position: absolute; left: 50%; top: 30%; transform: translate(-50%,-30%); width: 800px;}
+.content_area .info .info02 dd{font-size: 1.25rem; width: 600px;
+    position: absolute; left: 50%; top: 70%; transform: translate(-50%,-70%);}
+.content_area .info .info02:hover dl{opacity: 1; background: rgba(0,0,0,.5);}
+
+
+.content_area .info_bottom{width: 100%;}
+.content_area .info_bottom h3{font-size: 2.5rem; font-weight: 600; text-align: center;
+margin: 200px 0 70px; position: relative;}
+.content_area .info_bottom p{font-size: 1.38rem; font-weight: 500; text-align: center;}
+
+.content_area .info_bottom h3::after{content:'SAMSUNG'; display: block;
+    position: absolute; top: 80px; right: -550px; font-size: 30rem; opacity: 4%;}
+.content_area .info_bottom ul{overflow: hidden; width: 1200px; padding-top: 100px; 
+margin: 0 auto ; display: flex;}
+
+.content_area .info_bottom ul dl i{position: absolute; left: 50%; top: -15px; transform: translate(-50%);
+    width: 180px; opacity: 0; transition: all .5s ease-out;}
+.content_area .info_bottom ul li{background: #034EA2; border-radius: 50%; 
+width: 180px; height: 180px; margin: 100px auto 400px; justify-content: center; position: relative;
+transition: all .5s ease-out;}
+.content_area .info_bottom ul li:hover i{opacity: 1;}
+.content_area .info_bottom ul li:hover dd{opacity: 1;}
+.content_area .info_bottom ul li:hover dt{font-size: 1.88rem; font-weight: 500; margin-top: 15px;}
+.content_area .info_bottom ul li:hover{transform: translateY(-50px); background-color: #0078FF;
+    box-shadow: 1px 1px 15px 2px rgba(0,0,0,.5);}
+.content_area .info_bottom ul dl{position: absolute; left: 50%; top: 60px; transform: translateX(-50%);
+width: 180px; text-align: center; color: #fff; transition: all .5s ease-out;}
+.content_area .info_bottom ul dt{font-size: 1.75rem; font-weight: 300; margin-bottom: 7px; transition: all .5s ease-out;}
+.content_area .info_bottom ul dd{opacity: 0; transition: all .5s ease-out;}
+
+

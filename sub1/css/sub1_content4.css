@@ -1,0 +1,33 @@
+/* 기업정보의 실제 본문 내용 css */
+
+
+
+/* 컨텐츠 영역 */
+#content .title_area .line_map i{opacity: .4;}
+.content_area p{text-align: center; width: 760px;
+    margin: 0 auto 100px; font-size: 1.38rem; font-weight: 500;}
+
+.content_area .tab_menu ul{border:1px solid #ccc; overflow: hidden; margin-bottom: 100px;}
+.content_area .tab_menu li{float:left; width: 25%; box-sizing: border-box;}
+.content_area .tab_menu li:hover{background: #f8f8f8;}
+.content_area .tab_menu li:hover a{color:#0c4da2; font-weight: 500;}
+.content_area .tab_menu li a{font-weight:400; font-size: 1.13rem; color:#666; display: block; padding: 15px; text-align: center; }
+.content_area .tab_menu li:nth-child(1){border-right: 1px solid #ccc;}
+.content_area .tab_menu li:nth-child(2){border-right: 1px solid #ccc;}
+.content_area .tab_menu li:nth-child(3){border-right: 1px solid #ccc;}
+
+
+
+.content_area #map ,.content_area #map1 ,.content_area #map2 ,.content_area #map3{
+    width: 1200px; height: 500px; margin-bottom: 80px;} 
+.contlist{display: none;}
+.content_area .map_api h3{font-size: 1.88rem; font-weight: 600; text-align: center; margin-bottom: 100px;}
+.content_area .map_api i{margin-right: 20px;}
+.content_area .map_api dl{display: flex; border-bottom: 1px solid #999; padding: 20px;}
+.content_area .map_api dt{width: 150px; margin: 0 100px;  text-align: justify; font-size: 1.25rem;
+font-weight: 500;}
+.content_area .map_api dd{width: 850px; text-align: justify;}
+.content_area .contlist{margin-bottom: 200px;}
+
+
+

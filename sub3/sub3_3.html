@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회사소개-투자정보</title>
+    <link rel="stylesheet" href="../common/css/aos.css">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="../sub3/common/css/sub3common.css">
+    <link rel="stylesheet" href="./css/sub3_content3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <!-- <script src="./common/js/prefixfree.min.js"></script> -->
+    <script src="https://kit.fontawesome.com/6a9896b3cf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <? include'../common/sub_header.html' ?>
+    <div class="visual">
+        <img src="./common/images/subvisual03.jpg" alt="">
+        <span>투자정보</span>
+    </div>
+
+    <div class="sub_nav">
+        <ul>
+            <li><a href="./sub3_1.html">주가정보</a></li>
+            <li><a href="./sub3_2.html">재무정보</a></li>
+            <li><a href="./sub3_3.html" class="current">주주</a></li>
+        </ul>
+    </div>
+
+
+    <article id="content">
+        <div class="title_area">
+            <div class="line_map">
+                <i class="fa-solid fa-house"></i> &gt; 투자정보 &gt; <strong>주주</strong>
+            </div>
+            <h2>주주정보</h2>
+            <p>Shareholder information</p>
+        </div>
+        
+        <div class="content_area">
+            <section class="section01">
+                <h3>주주 구분현황</h3>
+                <div class="chart1">
+                    <canvas id="myChart"></canvas>
+                </div>
+            </section>
+
+            <section class="section02">
+                <div class="shareholder_info">
+                    <h3>주주 상세</h3>
+                    <p>최대주주등(본인+특별관계자)</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">주주명</th>
+                                <th scope="col">관계</th>
+                                <th scope="col">보통주(주)</th>
+                                <th scope="col">지분율</th>
+                                <th scope="col">최종변동일</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>삼성전자</td>
+                                <td>본인</td>
+                                <td>134,027,281</td>
+                                <td>15.23%</td>
+                                <td>2021/09/16</td>
+                            </tr>
+                            <tr>
+                                <td>삼성생명보험</td>
+                                <td>특수관계인</td>
+                                <td>25,701,199</td>
+                                <td>2.92%</td>
+                                <td>2021/09/16</td>
+                            </tr>
+                            <tr>
+                                <td>삼성전기</td>
+                                <td>특수관계인</td>
+                                <td>18,150,855</td>
+                                <td>2.06%</td>
+                                <td>2021/09/16</td>
+                            </tr>
+                            <tr>
+                                <td>삼성SDI</td>
+                                <td>특수관계인</td>
+                                <td>3,173,594</td>
+                                <td>0.36%</td>
+                                <td>2021/09/16</td>
+                            </tr>
+                            <tr>
+                                <td>삼성생명(특별계정)</td>
+                                <td>특수관계인</td>
+                                <td>1,064,873</td>
+                                <td>0.12%</td>
+                                <td>2024/01/31</td>
+                            </tr>
+                            <tr>
+                                <td>제일기획</td>
+                                <td>특수관계인</td>
+                                <td>994,314</td>
+                                <td>0.11%</td>
+                                <td>2021/09/16</td>
+                            </tr>
+                            <tr>
+                                <td>삼성물산</td>
+                                <td>특수관계인</td>
+                                <td>989,379</td>
+                                <td>0.11%</td>
+                                <td>2021/09/16</td>
+                            </tr>
+                            <tr>
+                                <td>정진택</td>
+                                <td>특수관계인</td>
+                                <td>27,006</td>
+                                <td>0.00%</td>
+                                <td>2021/09/16</td>
+                            </tr>
+                            <tr>
+                                <td>배진한</td>
+                                <td>특수관계인</td>
+                                <td>13,976</td>
+                                <td>0.00%</td>
+                                <td>2023/02/09</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">합계</td>
+                                <td>184,142,477</td>
+                                <td>20.93%</td>
+                                <td>2024/01/31</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+    </article>
+    <? include'../common/sub_footer.html' ?>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../common/js/aos.js"></script>
+    <script src="./js/chart2.js"></script>
+</body>
+</html>

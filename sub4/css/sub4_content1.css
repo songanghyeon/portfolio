@@ -1,0 +1,29 @@
+/* 기업정보의 실제 본문 내용 css */
+
+
+
+/* 컨텐츠 영역 */
+#content .title_area .line_map i{opacity: .4;}
+.content_area .section01 p{color: #333; margin: 0 auto 200px; text-align: center; font-size: 1.88rem; font-weight: 500;}
+.content_area .section01 dt a{font-size: 1.88rem; font-weight: 600; margin-bottom: 20px;}
+.content_area .section01 dd{width: 440px; font-size: 1.18rem; text-align: justify; line-height: 1.8rem;}
+.content_area .section01 dt{transition: all .5s ease-out;}
+.content_area .section01 dt:hover a{color: #034EA2;}
+.content_area .section01 .text01 .news_img{margin: 40px;}
+.content_area .section01 .text01 .news_img img{transition: all .5s ease-out;}
+.content_area .section01 .text01 .news_img a{width: 411px; height: 300px; overflow: hidden;}
+.content_area .section01 .text01 .news_img a:hover img{transform: scale(1.1);}
+.content_area .section01 .top{position: relative; margin-bottom: 50px;}
+.content_area .section01 .top a{position: absolute; right: 0; top: 0;}
+.content_area .section01 .top a i{color: #c4c4c4; transition: all .5s ease-out;}
+.content_area .section01 .top a:hover i{color: #333;}
+.content_area .section01 .text01 {display: flex; transition: all .5s ease-out;
+    border-bottom: 1px solid #bbbbbb;}
+.content_area .section01 .text01:nth-of-type(8){margin-bottom: 300px;}
+.content_area .section01 .text01:hover{background: #d4ecff; z-index: -10;}
+
+.content_area .section01 .text01 .news_text{margin-top: 60px; position: relative;}
+.content_area .section01 .text01 .news_text a{width: 705px; height: 50px;}
+.content_area .section01 .text01 .news_text span{position: absolute; left: 0; bottom: 50px;
+color: #bebebe;}
+

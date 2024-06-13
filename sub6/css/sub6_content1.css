@@ -1,0 +1,70 @@
+/* 기업정보의 실제 본문 내용 css */
+
+
+
+/* 컨텐츠 영역 */
+#content .title_area .line_map i{opacity: .4;}
+
+#content span{display: block; font-size: 1.75rem; font-weight: 500; text-align: center;}
+.content_area .section01 h3{font-size: 2.5rem; font-weight: 600; text-align: center; margin: 150px 0 80px; }
+.content_area .section01 .content01{display: flex; gap: 120px;}
+.content_area .section01 .content01 div:nth-of-type(1){margin-left: 70px;}
+.content_area .section01 .content01 div:nth-of-type(2){margin-bottom: 150px;}
+.content_area .section01 .content01 ul{font-size: 1.1rem; width: 440px; margin-top: 10px;}
+.content_area .section01 .content01 ul li{list-style:disc; margin-bottom: 25px; line-height: 1.5rem;
+text-align: justify;}
+.content_area .section01 .content01 img{box-shadow: 2px 2px 15px 2px rgba(0,0,0,.4);
+    transition: all .5s ease-out;}
+.content_area .section01 .content01 img:hover{border-radius: 60px;}
+
+.content_area .section02 h3{font-size: 2.5rem; font-weight: 600; text-align: center; margin: 50px 0 90px; }
+.content_area .section02 ul{display: flex;justify-content: space-around;
+margin-bottom: 250px;}
+.content_area .section02 li{position: relative; overflow: hidden; transition: all .5s ease;}
+.content_area .section02 li img{transition: all .5s ease; }
+.content_area .section02 li:nth-of-type(2){position: relative; top: 100px;}
+.content_area .section02 li:nth-of-type(4){position: relative; top: 100px;}
+.content_area .section02 dl{width: 250px; height: 400px; text-align: center; color: #fff;
+position: absolute; left: 0; top: 180px; transition: all .5s ease;}
+.content_area .section02 li:hover{box-shadow: 2px 2px 15px 2px rgba(0,0,0,.4);}
+.content_area .section02 li:hover dl{top: 70px;}
+.content_area .section02 li:hover dd{opacity: 1;}
+.content_area .section02 li:hover img{transform: scale(1.1); filter: blur(4px);}
+.content_area .section02 dl dt{font-size: 1.5rem; font-weight: 500; margin-bottom: 50px;}
+.content_area .section02 dl dd{font-size: 1rem; margin: 0 25px; text-align: justify;
+    opacity: 0; transition: all .5s ease;}
+
+
+.content_area .section03 h3{font-size: 2.5rem; font-weight: 600; text-align: center;}
+.content_area .section03 p{font-size: 1.75rem; font-weight: 400; text-align: center;
+margin: 50px 0 150px;}
+.content_area .section03 .content03{display: flex; justify-content: space-around;}
+.content_area .section03 .content03 img{box-shadow: 2px 2px 15px 2px rgba(0,0,0,.4);}
+.content_area .section03 .content03 dl{text-align: center;}
+.content_area .section03 .content03 dt{font-size: 1.5rem; font-weight: 500; margin: 20px 0 30px;}
+.content_area .section03 .content03 dd:nth-of-type(1){font-size: 1.2rem; margin-bottom: 50px;
+color: #4DA9E1;}
+.content_area .section03 .content03 dd:nth-of-type(3){margin-bottom: 100px; padding-bottom: 70px;
+    border-bottom: 2px solid #C3E0F2; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+/* 기업정보의 실제 본문 내용 css */
+
+
+
+/* 컨텐츠 영역 */
+#content .title_area .line_map i{opacity: .4;}
+.content_area .section01 h3{font-size: 2.5rem; font-weight: 600; text-align: center; margin-top: 50px;}
+
+.content_area .section01{width: 2000px;position: relative; left: 50%; top:0; transform: translateX(-50%);}
+.content_area .section01 img{margin: 100px 0 150px;}
+
+.content_area .section01 .top{width: 1200px; margin: 0 auto; clear: both;}
+.content_area .section01 .top p{width: 600px; height: 90px; background: #034EA2; color: #fff;
+margin: 0 auto; text-align: center; line-height: 5rem; font-size: 2.5rem; font-weight: 500;}
+.content_area .section01 .top p span{font-size: 1.3rem; font-weight: 400; margin-left: 20px;}
+.content_area .section01 .top dl{width: 600px; margin: 0 auto; position: relative;
+    border-bottom: 1px solid #333; margin-bottom: 100px;}
+.content_area .section01 .top dt{font-size: 1.33rem; font-weight: 400; margin: 10px 0 0 30px;}
+.content_area .section01 .top dt::before{content:''; display: block; opacity: .5;
+    width: 120px; height: 3px; background: #034EA2; position: absolute; left: 200px; top: 35px;}
+.content_area .section01 .top dd:nth-of-type(1){font-size: .8rem;
+margin: 15px 0 20px 30px;}
+.content_area .section01 .top dd:nth-of-type(2){font-size: 4rem; font-weight: 700;
+position: absolute; right: 50px; top: -18px;}
+
+.content_area .section01 .bottom{width: 1200px; margin: 0 auto;}
+.content_area .section01 ul{width: 1000px; margin: 0 auto; display: flex;}
+.content_area .section01 li{width: 25%; text-align: center;}
+.content_area .section01 .title{font-size: 2.25rem; font-weight: 500; margin-bottom: 50px; position: relative;}
+.content_area .section01 .won{font-size: 1.88rem; font-weight: 300;}
+.content_area .section01 .title::before{content: ""; display: block;
+    width: 1000px; height: 3px; background: #034EA2; position: absolute; top: 78px; left:0;}
+
+/* .content_area .section02{background: url(../images/content1/stock\ chart.svg);} */
+.content_area .section02 div{width: 1000px; margin: 100px auto;}
+
+.content_area .section02 ul{display: flex;}
+.content_area .section02 li{width: 25%; text-align: center; font-size: 1.75rem; font-weight: 500;
+padding: 25px 0;}
+.content_area .section02 .info01{background: #f6f6f6; border-top: 1px solid #333;}
+.content_area .section02 .info02{border-top: 1px solid #333;}
+.content_area .section02 .info03{background: #f6f6f6; border-top: 1px solid #333;}
+.content_area .section02 .info04{border-top: 1px solid #333;}
+.content_area .section02 .info05{background: #f6f6f6; border-top: 1px solid #333;}
+.content_area .section02 .info06{border-top: 1px solid #333; border-bottom: 1px solid #333;}
+
+.content_area .section03 h3{font-size: 2.5rem; font-weight: 600; text-align: center; margin: 300px 0 150px;
+}
+.content_area .section03 table {width: 100%; border-collapse: collapse; margin: 0px 0 200px;
+}
+.content_area .section03 table th, table td {border: 1px solid #747474; padding: 30px; text-align: center;
+    border-left: none; border-right: none;}
+.content_area .section03 table th{background-color: #f2f2f2; font-size: 1.88rem}
+.content_area .section03 table td{font-size: 1.38rem;}

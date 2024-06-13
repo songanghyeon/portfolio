@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회사소개-기업정보</title>
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_content4.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <!-- <script src="./common/js/prefixfree.min.js"></script> -->
+    <script src="https://kit.fontawesome.com/6a9896b3cf.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=87297f6a7284c1f661760ac65ef6ea20"></script>
+    <script src="./js/map2.js"></script>
+</head>
+<body>
+    <? include'../common/sub_header.html' ?>
+
+    <div class="visual">
+        <img src="./common/images/subvisual.jpg" alt="">
+        <span>회사소개</span>
+    </div>
+
+    <div class="sub_nav">
+        <ul>
+            <li><a href="./sub1_1.html">기업정보</a></li>
+            <li><a href="./sub1_2.html">경영이념</a></li>
+            <li><a href="./sub1_3.html">연혁</a></li>
+            <li><a href="./sub1_4.html" class="current">사업장소개</a></li>
+        </ul>
+    </div>
+
+
+    <article id="content">
+        <div class="title_area">
+            <div class="line_map">
+                <i class="fa-solid fa-house"></i> &gt; 회사소개 &gt; <strong>사업장소개</strong>
+            </div>
+            <h2>사업장소개</h2>
+            <p>Business establishment information</p>
+        </div>
+        
+        <div class="content_area">
+            <p>삼성중공업이 글로벌 경영으로 세계를 향해 나아갑니다.</p>
+                <div class="tab_menu">
+                    <ul>
+                        <li><a class="tab tab1" href="#">판교R&D센터</a></li>
+                        <li><a class="tab tab2" href="#">거제조선소</a></li>
+                        <li><a class="tab tab3" href="#">대덕연구센터</a></li>
+                        <li><a class="tab tab4" href="#">부산R&D센터</a></li>
+                    </ul>
+                </div>
+                <div class="map_api">
+                    <div class="contlist">
+                        <h3>판교R&D센터</h3>
+                        <div id="map">
+                            <!--여기에 카카오 지도 삽입 -->
+                        </div>
+                        <dl>
+                            <dt>
+                                <i class="fa-solid fa-map-location-dot fa-xl" style="color: #0078e1;"></i>  
+                                주소</dt>
+                            <dd>경기도 성남시 분당구 판교로 227번길 23 삼성중공업 판교R&D센터</dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <i class="fa-solid fa-phone fa-xl" style="color: #0078ff;"></i>
+                                전화</dt>
+                            <dd>031-5171-7000</dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <i class="fa-solid fa-bus fa-xl" style="color: #0078ff;"></i>
+                                대중교통</dt>
+                            <dd>9007, 8100, 9300, 1150, 9000, 9000-1, 실리콘파크 정류장 하차 &gt; 판교R&D센터까지 도보로 이동(190m)                          
+                            </dd>
+                        </dl>
+                    </div>
+            
+                    <div class="contlist">
+                        <h3>거제 조선소</h3>
+                        <div id="map1">
+                            <!--여기에 카카오 지도 삽입 -->
+                        </div>
+                        <dl>
+                            <dt>
+                                <i class="fa-solid fa-map-location-dot fa-xl" style="color: #0078e1;"></i>
+                                주소</dt>
+                            <dd>경상남도 거제시 장평3로 80(장평동)</dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <i class="fa-solid fa-phone fa-xl" style="color: #0078ff;"></i>
+                                전화</dt>
+                            <dd>055-630-3114</dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <i class="fa-solid fa-bus fa-xl" style="color: #0078ff;"></i>
+                                대중교통</dt>
+                            <dd>서울남부터미널 &gt; 고현버스터미널 &gt;110, 120, 120-1, 120-2, 통학6 환승 후 도보로 이동(650m)                          
+                            </dd>
+                        </dl>
+                    </div>
+            
+                    <div class="contlist">
+                        <h3>대덕연구센터</h3>
+                        <div id="map2">
+                            <!--여기에 카카오 지도 삽입 -->
+                        </div>
+                        <dl>
+                            <dt>
+                                <i class="fa-solid fa-map-location-dot fa-xl" style="color: #0078e1;"></i>
+                                주소</dt>
+                            <dd>대전광역시 유성구 문지로 217</dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <i class="fa-solid fa-phone fa-xl" style="color: #0078ff;"></i>
+                                전화</dt>
+                            <dd>042-865-4300</dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <i class="fa-solid fa-bus fa-xl" style="color: #0078ff;"></i>
+                                대중교통</dt>
+                            <dd>5005, 5000A, 5000B, 4101, 3866, 802 문지네거리 정류장 하차 &gt; 대덕연구센터까지 도보로 이동(10m)                          
+                            </dd>
+                        </dl>
+                    </div>
+            
+                    <div class="contlist">
+                        <h3>부산R&D센터</h3>
+                        <div id="map3">
+                            <!--여기에 카카오 지도 삽입 -->
+                        </div>
+                        <dl>
+                            <dt>
+                                <i class="fa-solid fa-map-location-dot fa-xl" style="color: #0078e1;"></i>
+                                주소</dt>
+                            <dd>부산시 남구 전포대로 133 제오피스호 16 17층</dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <i class="fa-solid fa-phone fa-xl" style="color: #0078ff;"></i>
+                                전화</dt>
+                            <dd>051-933-5501</dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <i class="fa-solid fa-bus fa-xl" style="color: #0078ff;"></i>
+                                대중교통</dt>
+                            <dd>2호선 서면역 &gt; 삼성중공업 부산R&D센터까지 도보로 이동(400m)                          
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+        </div>
+    </article>
+    <? include'../common/sub_footer.html' ?>
+    <script src="./js/maptab.js"></script>
+</body>
+</html>

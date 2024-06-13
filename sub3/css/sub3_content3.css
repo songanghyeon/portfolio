@@ -1,0 +1,20 @@
+/* 기업정보의 실제 본문 내용 css */
+
+
+
+/* 컨텐츠 영역 */
+#content .title_area .line_map i{opacity: .4;}
+.content_area .section01 p{text-align: center; width: 760px;
+    margin: 50px auto 150px; font-size: 1.38rem; font-weight: 500;}
+.content_area .section01 h3{font-size: 2.5rem; font-weight: 600; text-align: center; margin: 100px 0 0;}
+.content_area .section01 .chaart1 #myChart{width: 500px;}
+
+.section02 .shareholder_info h3{font-size: 2.5rem; font-weight: 600; text-align: center; margin: 100px 0 10px;}
+.section02 .shareholder_info p{text-align: center; width: 760px;
+    margin: 0 auto; font-size: 1.38rem; font-weight: 400;}
+.section02 .shareholder_info {margin-bottom: 20px;}
+.section02 table {width: 100%; border-collapse: collapse; margin: 100px 0 250px; }
+.section02 table th, table td {border: 1px solid #747474; padding: 20px; text-align: center;
+    border-left: none; border-right: none;}
+.section02 table th {background-color: #f2f2f2; font-size: 1.88rem;}
+.section02 table td{font-size: 1.38rem;}

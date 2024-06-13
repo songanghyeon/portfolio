@@ -1,0 +1,46 @@
+/* 회사소개의 공통 css */
+
+/* 비주얼 영역 */
+.visual{width: 2000px; height: 400px;
+    position: relative; left: 50%; top: 0; transform: translateX(-50%);}
+.visual span{font-size: 2rem; display: block; color: #fff;
+    position: absolute; top: 250px; width: 100%; text-align: center;}
+
+
+/* 서브메뉴 영역 */
+.sub_nav{width: 100%; border-bottom: 1px solid #ccc;}
+.sub_nav ul{overflow: hidden; width: 600px; margin: 0 auto; display: flex;}
+.sub_nav li{width: 50%; text-align: center;}
+.sub_nav li a{font-size: 1.2rem; font-weight: 400; padding: 15px 0; transition: all .5s;}
+.sub_nav li a:hover ,.sub_nav li .current{background: #4DA9E1; color: #fff;
+font-weight: 600;}
+
+
+/* 타이틀 영역 */
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{height: 450px; position: relative; overflow: hidden;}
+#content .title_area .line_map{position: absolute; right: 0; top: 20px; font-size: .9rem}
+#content .title_area h2{font-size: 3.13rem; text-align: center; margin-top: 130px; margin-bottom: 20px;
+    position: relative;}
+#content .title_area h2::after{content:''; display: block;
+width: 3px; height: 80px; background: #034EA2; position: absolute; top: 180px; left: 50%;}
+#content .title_area p{font-size: 1.3em; text-align: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

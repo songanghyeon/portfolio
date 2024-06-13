@@ -1,0 +1,73 @@
+/* 기업정보의 실제 본문 내용 css */
+
+
+
+/* 컨텐츠 영역 */
+#content .title_area .line_map i{opacity: .4;}
+#content .top{position: relative; margin-top: 80px;}
+#content .top span{display: block; font-size: 1.75rem; font-weight: 500; text-align: center;
+position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); color: #fff;}
+
+.content_area .section01{height: 500px; position: relative;}
+.content_area .section01 h3{font-size: 2.5rem; font-weight: 600; text-align: center; margin: 150px 0 80px; }
+.content_area .section01 p{font-size: 1.55rem; font-weight: 400; text-align: center;
+    margin-bottom: 50px; transition: all .3s ease-out;}
+.content_area .section01 p:nth-of-type(1):before{content: '';display: block;
+    width: 1050px; height: 22px; background: #4DA9E1; transition: all .3s ease-out;
+    position: absolute; top: 160px; left: 50%; transform: translate(-50%);opacity: .2;}
+.content_area .section01 p:nth-of-type(2):before{content: '';display: block;
+    width: 900px; height: 22px; background: #4DA9E1; transition: all .3s ease-out;
+    position: absolute; top: 245px; left: 50%; transform: translate(-50%);opacity: .2;}
+.content_area .section01 p:nth-of-type(3):before{content: '';display: block;
+    width: 680px; height: 22px; background: #4DA9E1; transition: all .3s ease-out;
+    position: absolute; top: 330px; left: 50%; transform: translate(-50%);opacity: .2;}
+.content_area .section01 p:hover{font-size: 1.65rem; font-weight: 600;}
+.content_area .section01 p:nth-of-type(1):hover:before{opacity: .3; width: 1100px; height: 24px}
+.content_area .section01 p:nth-of-type(2):hover::before{opacity: .3; width: 950px; height: 24px}
+.content_area .section01 p:nth-of-type(3):hover::before{opacity: .3; width: 710px; height: 24px}
+
+.content_area .section02 h3{font-size: 2.5rem; font-weight: 600; text-align: center; margin: 200px 0 80px; }
+.content_area .section02 .text_box{position: relative; margin-bottom: 500px;}
+.content_area .section02 .text_box ul{width: 600px; height: 300px; color: #fff;
+    background: linear-gradient(45deg, rgb(59,103,158) 0%,rgb(43,136,217) 50%,rgb(32,124,202) 51%,rgb(125,185,232) 100%);
+    position: absolute; right: 0; top: -100px; box-shadow: 2px 2px 15px 2px rgba(0,0,0,.4);}
+.content_area .section02 .text_box li{line-height: 2rem; font-size: 1.2rem; font-weight: 500;
+    text-align: justify; padding: 40px;}
+
+.content_area .section03 h3{font-size: 2.5rem; font-weight: 600; text-align: center; margin: 100px 0 150px; }
+.content_area .section03 {width: 2000px;position: relative; left: 50%; top:0; transform: translateX(-50%);}
+.content_area .section03 .content_text{width: 1200px; margin: 0 auto;
+    text-align: center;}
+.content_area .section03 .content_box{position: relative; filter: brightness(90%);}
+.content_area .section03 ul{display: flex;
+    color: #fff;justify-content: space-between;position: absolute;top: 300px;left: 50%;width: 1200px;margin-left: -600px;} 
+.content_area .section03 li{backdrop-filter: blur(20px); border-radius: 20px;
+padding: 40px 20px 0; height: 350px;border: 3px solid rgba(255, 255, 255, .3);}
+
+.content_area .section03 li:nth-of-type(2),.content_area .section03 li:nth-of-type(4){margin-top: 200px;}
+.content_area .section03 dt{font-size: 1.5rem; font-weight: 500; width: 230px;
+    margin-bottom: 30px; margin-bottom: 30px;}
+.content_area .section03 dd{font-size: 1.2rem; width: 230px; text-align: justify;}
+
+
+.content_area .section04 h3{font-size: 2.5rem; font-weight: 600; text-align: center; margin: 200px 0 80px;}
+.content_area .section04 p{font-size: 1.55rem; font-weight: 400; text-align: center; margin-bottom: 50px;}
+.content_area .section04 span{font-size: 1.55rem; font-weight: 400; text-align: center; display: block;
+    color: red;}
+.content_area .section04 table {border-collapse: collapse; width: 100%; margin: 100px 0 200px;}
+.content_area .section04 table th, table td {border: 1px solid #ccc; padding: 20px 0;
+    text-align: center;}
+.content_area .section04 table td{font-size: 1.28rem;}
+.content_area .section04 table th {background-color: rgba(167, 212, 255, 0.466);
+    font-size: 1.5rem;}
+.content_area .section04 table tbody tr:last-child td:first-child {
+        border-bottom-left-radius: 5px; }
+.content_area .section04 table tbody tr:last-child td:last-child {
+        border-bottom-right-radius: 5px;}
+      
+
+
+
+
+
+

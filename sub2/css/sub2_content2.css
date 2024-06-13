@@ -1,0 +1,47 @@
+/* 기업정보의 실제 본문 내용 css */
+
+
+
+/* 컨텐츠 영역 */
+#content .title_area .line_map i{opacity: .4;}
+.content_area .info p{text-align: center; width: 760px;
+    margin: 50px auto 150px; font-size: 1.38rem; font-weight: 500;}
+
+.content_area .info div{display: flex; margin-bottom: 100px;}
+.content_area .info img{border-radius: 50px;}   
+
+.content_area .info div dl{ text-align: justify; margin: 50px ;}
+.content_area .info div dt{font-size: 1.88rem; font-weight: 500; margin-bottom: 70px;}
+.content_area .info div dd{font-size: 1.13rem; line-height: 1.8rem;}
+
+.content_area .info_bottom{width: 1200px;}
+.content_area .info_bottom h3{font-size: 2.5rem; font-weight: 600; text-align: center; margin: 100px 0 50px;}
+.content_area .info_bottom p{font-size: 1.38rem; text-align: center; margin-bottom: 130px;}
+
+.content_area .info_bottom .img{overflow: hidden;}
+.content_area .info_bottom img{transition: all .5s ease-out;}
+.content_area .info_bottom .img:hover img{transform: scale(1.1);}
+.content_area .info_bottom .box1{display: flex; gap: 40px; position: relative;}
+.content_area .info_bottom .box2{display: flex; gap: 40px;}
+.content_area .info_bottom .box3{display: flex; gap: 40px;}
+.content_area .info_bottom dl{margin-bottom: 100px;}
+.content_area .info_bottom dt{font-size: 1.88rem; font-weight: 500; margin: 20px 0;}
+.content_area .info_bottom div{position: relative;}
+.content_area .info_bottom a{color: #bbbbbb;
+    position: absolute; right: 0; bottom: 100px; transition: all .5s ease-out;}
+.content_area .info_bottom div a:hover{font-weight: 700; color: #333;}
+.content_area .info_bottom div a i{color: #bbbbbb; transition: all .5s ease-out;}
+.content_area .info_bottom div a:hover i{color: #333;}
+
+.modal_box{position: fixed; left: 0; top: 0;
+    z-index: 100; width: 100%; height: 100%; background: #000; opacity: .7; display: none;}
+.info_bottom .popup{position: fixed; top: 70%; left: 50%; 
+    transform: translate(-50%, -70%); width: 850px; height: 750px; 
+    background: #fff; box-shadow: 1px 3px 7px 0px #666;
+    z-index: 110; display: none;}
+.info_bottom .popup img{width: 94%; margin:20px 3%;}
+.info_bottom .popup dl{width: 94%; margin:10px 3%; text-align: center;}
+.info_bottom .popup dt{font-size: 1.6rem; font-weight: 600; margin: 40px 0 40px;}
+.info_bottom .popup dd{font-size: 1.2rem; text-align: justify; line-height: 2rem;}
+.info_bottom .popup .close_btn{position: absolute; top: 14px; right: 24px; overflow: hidden;}
+.info_bottom .popup .close_btn i{color: #dadada; opacity: .6; font-size: 2.5rem;}

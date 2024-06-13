@@ -1,0 +1,49 @@
+/* 기업정보의 실제 본문 내용 css */
+
+
+
+/* 컨텐츠 영역 */
+#content .title_area .line_map i{opacity: .4;}
+.content_area .content01 p{text-align: center; width: 760px;
+    margin: 0 auto 100px; font-size: 1.38rem; font-weight: 500;}
+
+
+.content_area .content01 div{position: relative; overflow: hidden; width: 1200px; height: 200px;}
+.content_area .content01 div img{transition: all .5s ease-out;}
+.content_area .content01 div:hover p{opacity: 1;}
+.content_area .content01 div:hover img{transform: scale(1.1); filter: blur(4px);}
+.content_area .content01 div p{position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);
+opacity: 0; color: #fff; transition: all .5s ease-out;}
+
+
+.content_area .content02{width: 100%;}
+.content_area .content02 h3{font-size: 2.5rem; font-weight: 600; text-align: center;
+    margin: 200px 0 70px; position: relative;}
+.content_area .content02 p{font-size: 1.38rem; font-weight: 500; text-align: center;
+    margin-bottom: 150px;}
+.content_area .content02 dl{ text-align: center; width: 370px; }
+.content_area .content02 dt{font-size: 1.88rem; font-weight: 600; margin-bottom: 50px;}
+.content_area .content02 dd{font-size: 1.13rem; text-align: center; line-height: 1.8rem;}
+.content_area .content02 img{margin-bottom: 200px;}
+.content_area .content02 .text01{display: flex;}
+.content_area .content02 .text01 img{ border-radius: 125px 0 125px 0; }
+.content_area .content02 .text01 dl{margin: 20px auto;}
+
+.content_area .content02 .text02 img{float: right; border-radius: 0 125px 0 125px;}
+.content_area .content02 .text02 dl{margin-left: 100px;}
+
+.content_area .content02 .text03{display: flex; clear: both;}
+.content_area .content02 .text03 dl{margin: 20px auto;}
+.content_area .content02 .text03 img{ border-radius: 125px 0 125px 0; }
+
+.content_area .content02 .text04 img{float: right; border-radius: 125px 0 125px 0;}
+.content_area .content02 .text04 dl{margin-left: 100px;}
+
+.content_area .content02 .text05{display: flex; clear: both;}
+.content_area .content02 .text05 dl{margin: 20px auto;}
+.content_area .content02 .text05 img{ border-radius: 0 125px 0 125px; }
+
+
+
+
+

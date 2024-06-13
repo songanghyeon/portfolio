@@ -1,0 +1,55 @@
+/* 기업정보의 실제 본문 내용 css */
+
+
+
+/* 컨텐츠 영역 */
+#content .title_area .line_map i{opacity: .4;}
+.content_area .section01 p{text-align: center; width: 760px;
+    margin: 50px auto 150px; font-size: 1.38rem; font-weight: 500;}
+
+.content_area .section01 h3{font-size: 2.5rem; font-weight: 600; text-align: center; margin-bottom: 150px;}
+.content_area .section01 ul{display: flex; color: #fff;}
+.content_area .section01 li{position: relative; margin: 0 auto; border-radius: 50%;}
+.content_area .section01 img{transition: all .5s ease-out; border-radius: 50%;}
+.content_area .section01 dt{text-align: center; font-size: 1.5rem; font-weight: 500; width: 270px;
+    position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); transition: all .5s ease-out;}
+.content_area .section01 dd{width: 325px; font-size: 1.2rem; text-align: center; opacity: 0;
+    position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); transition: all .5s ease-out; transition-delay: .3s;}
+.content_area .section01 li:hover img{transform: rotateY(360deg); filter: brightness(.5);}
+.content_area .section01 li:hover dt{opacity: 0;}
+.content_area .section01 li:hover dd{opacity: 1; font-weight: 500;}
+.content_area .section01 li:hover li::before{transform: scale(1.1);}
+
+.content_area .section01 li::before{content:''; display: block; width: 380px; height: 380px;
+    border-radius: 50%;
+    border: 4px solid #5faaff; position: absolute; top: 50%; left: 50%;
+transform: translate(-50%,-50%); opacity: .5;}
+.content_area .section01 li::after{content:''; display: block; width: 410px; height: 410px;
+    border-radius: 50%;
+    border: 2px solid #8ad0f0; position: absolute; top: 50%; left: 50%;
+transform: translate(-50%,-50%); opacity: .5;}
+
+
+
+.content_area .section02 h3{font-size: 2.5rem; font-weight: 600; text-align: center; margin-top: 150px;}
+.content_area .section02 p{text-align: center; margin: 0 auto 150px;}
+.content_area .section02 img{border-radius: 40px; box-shadow: 2px 2px 15px 1px;}
+.content_area .section02 .text01{display: flex;}
+.content_area .section02 dl{width: 600px; margin-left: 80px;}
+.content_area .section02 dt{font-size: 2rem; font-weight: 500; margin: 30px 0 20px;}
+.content_area .section02 dd{line-height: 1.5em; text-align: justify; margin: 50px 0;}
+
+.content_area .section03 h3{font-size: 2.5rem; font-weight: 600; text-align: center; margin-top: 150px;}
+.content_area .section03 p{text-align: center; margin: 0 auto 150px;}
+.content_area .section03 img{border-radius: 40px; margin-bottom: 250px; box-shadow: 1px 1px 15px 2px;}
+.content_area .section03 .text02{display: flex;}
+.content_area .section03 dl{width: 600px; margin-right: 80px;}
+.content_area .section03 dt{font-size: 2rem; font-weight: 500; margin: 30px 0 20px;}
+.content_area .section03 dd{line-height: 1.5em; text-align: justify; margin: 50px 0;}
+
+
+
+
+
+
+
